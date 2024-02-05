@@ -1,0 +1,227 @@
+@media (max-width:600px) {
+    body h1{
+        font-size: 35px;
+        font-weight: 700;
+        overflow-x: hidden;
+
+    }
+    .containers{
+        width: 100vw;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+    .btn button{
+        font-size: 13px;
+    }
+    .home-section{
+        width: 100%;
+        height: 100vh;
+        /* background-size: 100%; */
+        background-position: center;
+        background-size: cover;
+       
+    }
+    .logo svg{
+        width: 99px;
+    }
+  
+    .home-box h1{
+        font-size: 35px;
+        padding: 0 10px;
+        margin-top: -50px;
+        font-weight: 600;
+        padding-left: 15px;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .home-box h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align:center;
+    }
+    .home-box p{
+        font-size: 17px;
+        padding: 5px 10px;
+        margin-bottom: 15px;
+        width: 100%;
+
+    }
+    .in-btn{
+        padding: 0 10px;
+        flex-direction: column;
+    }
+    .in-btn input{
+        display: block;
+        width: 80%;
+        padding: 10px 15px ;
+        margin-top: 20px;
+      
+    }
+    .in-btn button{
+        display: block;
+        width: 130px;
+        padding: 10px 15px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+     /* tv section*/
+    .tv-section{
+        height: 90vh;
+        width: 100%;
+    }
+     .twoside{
+        flex-direction: column-reverse;
+      height: 100vh;
+      margin-top: -30px;
+      width: 100%;
+    }
+     .left{
+        width: 100%;
+        height: 50vh;
+     }
+     .left h1{
+        font-size: 35px;
+        text-align: center;
+
+     }
+     .left p{
+        font-size: 19px;
+        text-align: center;
+     }
+     .vdo{
+        width: 100%;
+        height: 100%
+     }
+     .vdo video{
+        width: 90%;
+     }
+     .right{
+        height: 50vh;
+     }
+     .right img{
+        width: 100%;
+     }
+
+     /* mobile seciton */
+     .mobile-section{
+        height: 100vh;
+       width: 100%;
+
+     }
+     .mobile-center{
+        width: 100%;
+        flex-direction: column;
+     }
+     .moleft{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+     }
+     .boxshot{
+        height: 80px;
+        bottom: 40px;
+        left: 150px;
+     }
+     .mo-left>img{
+       width: 400px;
+     }
+     .boxshot img{
+        height: 60px;
+     }
+     .txt{
+        margin-right: 5px;
+     }
+     .txt>h3{
+        font-size: 15px;
+     }
+     .txt>p{
+        font-size: 13px;
+     }
+     .mo-left{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        border: 1px solid white;
+     }
+     .mo-right img{
+        width: 100%;
+        padding-bottom: 10px ;
+     }
+     .mo-right{
+        width: 100vh;
+        /* border: 1px solid white; */
+        margin: 0;
+        padding: 0 10px;
+        position: relative;
+        margin: auto;
+        width: 100%;
+
+     }
+     .mo-right h1{
+        font-size: 35px;
+        font-weight: 600;
+        margin: 0;
+        position: absolute;
+        top: 20px;
+        width: 100vw;
+        padding: 0 10px;
+        text-align: center;
+        width: 100%;
+      
+     }
+     .mo-right p{
+        font-size: 19px;
+        margin: auto;
+        position: absolute;
+        top: 140px;
+        
+      
+        text-align: center;
+        
+        padding: 0 10px;
+
+     }
+
+      /* kids section css  */
+     .kids-center{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+     }
+     .kids-left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .kids-left-img img{
+        width: 330px;
+     }
+     .kids-right>h1{
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+
+     }
+     .kids-right>p{
+        font-size: 18px;
+        text-align: center;
+     }
+
+
+
+  
+           
+
+}  
