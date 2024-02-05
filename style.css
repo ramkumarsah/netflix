@@ -212,15 +212,7 @@ color: #fff;
 
 }
 
-.text-section{
-   
-        height: 85vh;
-        border-top: 9px solid #232323;
-        background-color: black;
-        color: #fff;
-        
-      
-}
+
 .kids-section{
     height: 85vh;
     border-top: 9px solid #232323;
@@ -294,4 +286,35 @@ color: #fff;
 }
 .mo-right p{
     font-weight: 400;
+}
+.text-section{
+   
+    height: 80vh;
+    border-top: 9px solid #232323;
+    background-color: black;
+    color: #fff;
+    
+  
+}
+.text-sec-center{
+    display:flex;
+    align-items: center;
+   height: 80vh;
+}
+.txts{
+    border: 1px solid white;
+    padding-left: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.txts h1{
+    font-weight: 900;
+}
+.txts p{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    
 }
