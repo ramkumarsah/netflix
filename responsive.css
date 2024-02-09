@@ -12,10 +12,11 @@
         margin: 0;
     }
     .navbar{
-        justify-content: space-around;
+        justify-content: space-between;
+        padding: 30px 30px;
     }
     .btn button{
-        font-size: 13px;
+        font-size: 14px;
     }
     .home-section{
         width: 100%;
@@ -23,6 +24,7 @@
         /* background-size: 100%; */
         background-position: center;
         background-size: cover;
+        
        
     }
     .logo svg{
@@ -30,9 +32,9 @@
     }
   
     .home-box h1{
-        font-size: 35px;
+        font-size: 40px;
         padding: 0 10px;
-        margin-top: -50px;
+        margin-top: -250px;
         font-weight: 600;
         padding-left: 15px;
         text-align: center;
@@ -40,15 +42,17 @@
         
     }
     .home-box h2{
-        font-size: 25px;
+        font-size: 24px;
         margin-bottom: 10px;
+        font-weight: 400;
         width: 100%;
         text-align:center;
     }
     .home-box p{
         font-size: 17px;
         padding: 5px 10px;
-        margin-bottom: 15px;
+        margin-top: 50px;
+        margin-bottom: 35px;
         width: 100%;
 
     }
@@ -59,32 +63,32 @@
     .in-btn input{
         display: block;
         width: 80%;
-        padding: 10px 15px ;
+        padding: 20px 15px ;
         margin-top: 20px;
       
     }
     .in-btn button{
         display: block;
-        width: 130px;
-        padding: 10px 15px;
-        font-size: 16px;
+        width: 150px;
+        padding: 15px 10px;
+        font-size: 20px;
         margin-top: 20px;
     }
 
      /* tv section*/
     .tv-section{
-        height: 90vh;
+        height: 70vh;
         width: 100%;
     }
      .twoside{
-        flex-direction: column-reverse;
-      height: 100vh;
-      margin-top: -30px;
+        flex-direction: column;
+      height: 80vh;
+      margin-top: 30px;
       width: 100%;
     }
      .left{
         width: 100%;
-        height: 50vh;
+        height: 30vh;
      }
      .left h1{
         font-size: 35px;
@@ -97,16 +101,21 @@
      }
      .vdo{
         width: 100%;
-        height: 100%
+        height: 100%;
+        position: absolute;
+        bottom: 100px;
+        left: -65px;
+      
+        
      }
      .vdo video{
-        width: 90%;
+        width: 160%;
      }
      .right{
         height: 50vh;
      }
      .right img{
-        width: 100%;
+        width: 170%;
      }
 
      /* mobile seciton */
