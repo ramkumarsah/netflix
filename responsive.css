@@ -82,7 +82,7 @@
     }
      .twoside{
         flex-direction: column;
-      height: 80vh;
+      height: 90vh;
       margin-top: 30px;
       width: 100%;
     }
@@ -120,16 +120,16 @@
 
      /* mobile seciton */
      .mobile-section{
-        height: 100vh;
+        height: 90vh;
        width: 100%;
 
      }
      .mobile-center{
         width: 100%;
-        flex-direction: column;
+        flex-direction: column-reverse;
      }
      .moleft{
-        height: 50vh;
+        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -139,10 +139,10 @@
      .boxshot{
         height: 80px;
         bottom: 40px;
-        left: 150px;
+        left: 70px;
      }
      .mo-left>img{
-       width: 400px;
+       width: 480px;
      }
      .boxshot img{
         height: 60px;
@@ -160,7 +160,6 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        border: 1px solid white;
      }
      .mo-right img{
         width: 100%;
@@ -168,9 +167,11 @@
      }
      .mo-right{
         width: 100vh;
+        height: 250px;
+        
         /* border: 1px solid white; */
-        margin: 0;
-        padding: 0 10px;
+        
+        /* padding: 2px 10px; */
         position: relative;
         margin: auto;
         width: 100%;
@@ -181,7 +182,7 @@
         font-weight: 600;
         margin: 0;
         position: absolute;
-        top: 20px;
+        top: 70px;
         width: 100vw;
         padding: 0 10px;
         text-align: center;
@@ -192,7 +193,7 @@
         font-size: 19px;
         margin: auto;
         position: absolute;
-        top: 140px;
+        top: 190px;
         
       
         text-align: center;
@@ -201,31 +202,73 @@
 
      }
 
+
+     /* text only section */
+     .text-section{
+      height: 50vh;
+     }
+     .text-sec-center{
+      width: 100vw;
+      height: 50vh;
+
+     }
+     .txts{
+      padding: 0;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      gap: 40px;
+
+     }
+     .txts h1{
+      font-size: 40px;
+      width: 250px;
+      margin: auto;
+      font-weight: 900;
+      padding-bottom: 20px;
+      text-align: center;
+      display: inline-block;
+     }
+     .txts p{
+      width: 100vw;
+      font-size: 20px;
+      text-align: center;
+      margin: auto;
+
+     }
+
       /* kids section css  */
      .kids-center{
         width: 100%;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         
      }
      .kids-left{
+      margin: 0;
         width: 100%;
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
      }
      .kids-left-img img{
-        width: 330px;
+        width: 90vw;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 20px;
      }
      .kids-right>h1{
         font-size: 35px;
-        font-weight: 700;
+        font-weight: 900;
+        padding-top: 30px;
         text-align: center;
 
      }
      .kids-right>p{
         font-size: 18px;
         text-align: center;
+        padding-top: 20px;
      }
 
 
