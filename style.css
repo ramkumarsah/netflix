@@ -348,3 +348,61 @@ color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
 }
+/* css for fyq sectoin  */
+
+.fyq-section{
+    background-color: #000;
+    color: #ffff;
+    border-top: 9px solid #232323;
+    padding-top: 30px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.fyq-section>.containers>h1{
+    text-align: center;
+
+}
+.fyq-section h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.fyq-q{
+    /* border: 1px solid white; */
+    padding: 20px 0;
+}
+.b .q1{
+    display:flex;
+}
+.b{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgba(255, 255, 255, 0.342); */
+    margin: 10px 0;
+    font-size: 24px;
+    padding: 5px 25px;
+    align-items: center;
+    background-color: #2D2D2D;
+
+}
+.b h3{
+    font-weight: 400;
+    font-size: 24px;
+
+}
+.b h2{
+    font-size: 45px;
+    font-weight: 300;
+
+}
+.fyq-q>.login-box{
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.fyq-q>.login-box>p{
+    font-size: 20px;
+    font-weight: 400;
+}
