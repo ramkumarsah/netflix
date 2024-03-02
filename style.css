@@ -5,6 +5,21 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+::-webkit-scrollbar{
+    width: 8px;
+   
+
+    
+    background-color: #000;
+}
+::-webkit-scrollbar-corner{
+    
+}
+  ::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 50%;
+
+  }  
 h1{
     font-size: 48px;
     font-weight: 900;
