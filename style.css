@@ -321,6 +321,10 @@ color: #fff;
     font-weight: 400;
     
 }
+body{
+    overflow-x: hidden;
+
+}
 
 
 /* css for kids section*/
