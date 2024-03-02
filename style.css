@@ -80,6 +80,17 @@ html, body{
     color: #fff;
     font-size: 14px;
     background-color: #c11119;
+    transition: 0.3s;
+
+
+}
+.btn button a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.btn button:hover{
+    background-color: #da222c;
 
 }
 .home-box{
@@ -143,6 +154,16 @@ html, body{
     border: none;
     border-radius: 3px;
     color: #fff;
+    transition: 0.3s;
+}
+.in-btn button a{
+    text-decoration: none;
+    color: white;
+}
+.in-btn button:hover{
+    background-color: #da222c;
+    cursor: pointer;
+
 }
 
 .tv-section{
